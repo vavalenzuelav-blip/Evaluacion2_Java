@@ -102,7 +102,6 @@ public class MainController {
         listaTabla.add(nuevaMascota);
         mascotaDAO.guardar(listaTabla);
 
-        // Mensaje verde igual a la Figura 1
         mostrarExito(nuevaMascota.getNombre() + " (" + nuevaMascota.getTipo() + ") registrado correctamente.");
         limpiar();
     }
